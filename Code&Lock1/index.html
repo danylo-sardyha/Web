@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code&Lock — Інноваційні NFC-замки</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body class="dark">
+    <nav class="navbar">
+      <div class="container nav-wrapper">
+        <div class="logo">
+          <i data-lucide="lock" class="icon-primary"></i>
+          <span>Code&Lock</span>
+        </div>
+
+        <div class="nav-actions">
+          <a href="/dashboard" class="btn btn-outline desktop-only">Увійти</a>
+          <button class="btn-icon mobile-only" id="menuBtn">
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container grid-2">
+        <div class="hero-content">
+          <h1>Ключ-карти розмагнічуються? Ми знаємо, як це вирішити.</h1>
+          <p class="text-muted">
+            Інноваційний NFC-замок для готелів. Доступ до номера в один дотик
+            смартфоном.
+          </p>
+          <button class="btn btn-primary btn-lg">Замовити демо</button>
+        </div>
+        <div class="hero-image">
+          <div class="aspect-square">
+            <img
+              src="https://images.unsplash.com/photo-1716388163697-bfb3989d15c8?q=80&w=1080"
+              alt="Smartphone NFC door lock"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="problems bg-muted">
+      <div class="container">
+        <h2 class="section-title">Приховані витрати готелів</h2>
+        <div class="grid-3">
+          <div class="card">
+            <div class="icon-box"><i data-lucide="key"></i></div>
+            <h3>Втрата ключів</h3>
+            <p class="text-sm text-muted">
+              Постійна заміна загублених ключів та ключ-карт коштує готелям
+              тисячі гривень щомісяця.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon-box"><i data-lucide="alert-circle"></i></div>
+            <h3>Перемагнічування</h3>
+            <p class="text-sm text-muted">
+              Ключ-карти часто розмагнічуються, створюючи незручності для гостей
+              та додаткове навантаження на персонал.
+            </p>
+          </div>
+          <div class="card col-span-mobile">
+            <div class="icon-box"><i data-lucide="ban"></i></div>
+            <h3>Проблеми з доступом</h3>
+            <p class="text-sm text-muted">
+              Складність управління доступом до номерів призводить до затримок
+              та погіршення якості сервісу.
+            </p>
+          </div>
+        </div>
+
+        <div class="stat-banner">
+          <div class="stat-value">≈ 29 040 800 грн</div>
+          <p class="text-muted">втрат для 2017 готелів</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container">
+        <h2 class="section-title">Переваги Code&Lock</h2>
+        <div class="grid-3">
+          <div class="benefit-card">
+            <i data-lucide="zap" class="icon-primary"></i>
+            <h4>Миттєвий NFC-доступ</h4>
+            <p class="text-sm text-muted">
+              Відкриття дверей одним дотиком смартфона
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <i data-lucide="shield" class="icon-primary"></i>
+            <h4>Генерація PIN-кодів</h4>
+            <p class="text-sm text-muted">
+              Тимчасові коди для гостей без смартфона
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <i data-lucide="clock" class="icon-primary"></i>
+            <h4>Швидкий монтаж</h4>
+            <p class="text-sm text-muted">
+              Встановлення без складних будівельних робіт
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <i data-lucide="lock" class="icon-primary"></i>
+            <h4>Банківська безпека</h4>
+            <p class="text-sm text-muted">Шифрування даних найвищого рівня</p>
+          </div>
+
+          <div class="benefit-card">
+            <i data-lucide="zap" class="icon-primary"></i>
+            <h4>Автономна робота</h4>
+            <p class="text-sm text-muted">До 12 місяців роботи від батареї</p>
+          </div>
+
+          <div class="benefit-card">
+            <i data-lucide="shield" class="icon-primary"></i>
+            <h4>Контроль доступу</h4>
+            <p class="text-sm text-muted">Повна історія входів та виходів</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team bg-muted-section section-padding">
+      <div class="container">
+        <h2 class="section-title text-center">Команда розробників</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="avatar">
+              <img src="images/Mikilka.jpg" alt="Микола" />
+            </div>
+            <h4>Микола</h4>
+            <p class="text-xs text-muted">TeamLead</p>
+          </div>
+
+          <div class="team-member">
+            <div class="avatar">
+              <img src="images/Sevenyr.jpg" alt="Северин" />
+            </div>
+            <h4>Северин</h4>
+            <p class="text-xs text-muted">Designer</p>
+          </div>
+
+          <div class="team-member">
+            <div class="avatar">
+              <img src="images/Danius.jpg" alt="Данило" />
+            </div>
+            <h4>Данило</h4>
+            <p class="text-xs text-muted">Fullstack</p>
+          </div>
+
+          <div class="team-member">
+            <div class="avatar">
+              <img src="images/Roksolanus.jpg" alt="Роксолана" />
+            </div>
+            <h4>Роксолана</h4>
+            <p class="text-xs text-muted">Fullstack</p>
+          </div>
+
+          <div class="team-member">
+            <div class="avatar">
+              <img src="images/Dianchuk_bananchuk.jpg" alt="Діана" />
+            </div>
+            <h4>Діана</h4>
+            <p class="text-xs text-muted">Embedded</p>
+          </div>
+
+          <div class="team-member">
+            <div class="avatar">
+              <img src="images/Yura.jpg" alt="Юра" />
+            </div>
+            <h4>Юра</h4>
+            <p class="text-xs text-muted">Embedded</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-left">
+            <div class="logo" style="margin-bottom: 1rem">
+              <i data-lucide="lock" class="icon-primary"></i>
+              <span>Code&Lock</span>
+            </div>
+            <div class="social-link">
+              <i data-lucide="instagram"></i>
+              <a href="https://instagram.com/code_lock_team" target="_blank"
+                >@code_lock_team</a
+              >
+            </div>
+          </div>
+
+          <div class="qr-container">
+            <p
+              class="text-xs text-muted"
+              style="margin-bottom: 0.5rem; text-align: center"
+            >
+              Скан для Instagram
+            </p>
+            <div class="qr-code-box">
+              <img src="images/insta(QR).png" alt="Instagram QR Code" />
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Code&Lock. Усі права захищені.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Ініціалізація іконок
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
